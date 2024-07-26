@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow:none;
+}
+.hover-text-dark:hover {
+    color:#2937f0 !important; 
+}
+.circ{
+    margin-left:27rem;
+    margin-top: -190px;
+}
+.circle{
+    background: linear-gradient(45deg,#2937f0,#9f1ae2);
+    height: 370px;
+    width:370px;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+}
+.x{
+   color: #2937f0;
+   top: 220px;
+   left: 50px; 
+}
+.video{
+   height: 350px;
+}
