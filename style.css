@@ -6,26 +6,115 @@
 body{
     overflow:none;
 }
-.hover-text-dark:hover {
+.text-dark:hover {
     color:#2937f0 !important; 
 }
+.navbar-brande:hover{
+    color: #2937f0 !important;
+}
+#first{
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+#header{
+    margin-top:7rem ;
+}
+#h1{
+    font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+#h2{
+    font-family:"Segoe-UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .circ{
-    margin-left:27rem;
-    margin-top: -190px;
+    color: #2937f0;
+    margin-left:28rem;
+    margin-top: -265px;
 }
 .circle{
     background: linear-gradient(45deg,#2937f0,#9f1ae2);
-    height: 370px;
-    width:370px;
+    height: 410px;
+    width:410px;
     border-radius: 50%;
     top:50%;
     left:50%;
 }
 .x{
    color: #2937f0;
-   top: 220px;
+   top: 200px;
    left: 50px; 
 }
+.phone{
+    margin-top: 60px;
+}
 .video{
-   height: 350px;
+   border-radius: 30px;
+   margin-top: 10px;
+}
+.img{
+    padding-top:80px;
+    
+}
+.primary{
+    background:linear-gradient(45deg,#2937f0,#9f1ae2);
+    margin-top:10rem ;
+    color: white; 
+}
+#h1{
+    font-family: "Newsreader" -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.phone1{
+    margin-top: -10px;
+}
+.video1{
+   border-radius: 30px;
+   margin-top: 10px;
+}
+.img1{
+    padding-top:80px;
+    
+}
+#phone2{
+    margin-top:150px;
+}
+.x1{
+    color: #2937f0;
+    margin-left:23rem;
+    margin-top: -460px;
+   
+}
+#circle1{
+    background: linear-gradient(45deg,#2937f0,#9f1ae2);
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    top:50%;
+    left:30%;
+}
+.circ1{
+    color: #2937f0;
+    top: 200px;
+    left: 0px;
+    
+}
+#mt{
+    padding-top: 150px;
+
+}
+.text{
+    text-align: center;
+}
+#mobile{
+   background : linear-gradient(45deg,#2937f0,#9f1ae2);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 80px;
+   font-weight: 100;
+}
+.dev{
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
