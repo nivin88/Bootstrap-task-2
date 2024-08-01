@@ -120,7 +120,7 @@ body{
 }
 #pp1{
     font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
-    font-size: 23px;
+    font-size: 22px;
 }
 /* #img2{
     margin-left: 200px;
@@ -174,7 +174,7 @@ body{
     filter: invert(1) grayscale(100%)
     brightness(200%);
 }
-.modal{
+#modal{
     position: relative;
     display:contents;
     flex-direction: column;
@@ -278,7 +278,7 @@ body{
     border-color: #0d6efd;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:470px) {
     #header{
         margin-bottom: 650px !important;
     }
@@ -291,4 +291,40 @@ body{
     #Features{
         margin-bottom: 250px !important;
     }
+  
+    
 }
+@media screen and (max-width:768px) {
+    #header{
+        margin-bottom: 350px !important;
+    }
+    .show2{
+        margin-bottom: 300px !important;
+    }
+    #Features{
+        margin-bottom: 250px !important;
+    }
+    #phone{
+        /* margin-top: -300px !important; */
+        margin-top: 600px !important;
+    }
+    #mt{
+        padding-top: 60px;
+        margin-bottom: 100px;
+    }
+    /* .phone1{
+        margin-top: 200px;
+    } */
+      #play2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
+/* @media screen and (max-width:1024) {
+    #header{
+        margin-bottom: 1px;
+    }
+    
+} */
