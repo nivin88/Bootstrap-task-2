@@ -1,4 +1,4 @@
-.masthead{
+.{
     align-items: center;
     justify-content: center;
     background-color: #f8f9fa;
@@ -63,14 +63,14 @@
   }
   .cir{
     color: #8D1FE4;
-    right: -5%;
+    right: -1%;
     bottom: 250px;
   }
   .xma{
     color: #8D1FE4;
     position: absolute;
     top: 150px;
-    left: -5%;
+    left: 5%;
   }
 
   .iphone{
@@ -162,5 +162,23 @@
   }
   .circler{
     display: none;
+  }
+}
+@media screen and (min-width:374px) and (max-width:426px) {
+  #phone3{
+    margin-left: 19px;
+  }
+}
+@media screen and (min-width:427px) and (max-width:768px) {
+  #phone3{
+    margin-left: 48px;
+  }
+  .circler{
+    top: 250px;
+    left:30%;
+    background-color: #8D1FE4;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
   }
 }
